@@ -1,15 +1,15 @@
 article {
-  width: 80%;
+  width: 120rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   margin: auto;
-  gap: 64px;
+  gap: 6.4rem;
 }
 article p {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   color: #475467;
 }
 
@@ -18,19 +18,19 @@ article p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 96px auto 0 auto;
+  margin: 9.6rem auto 0 auto;
 }
 .article--heading h1 {
-  font-size: 48px;
-  margin-bottom: 24px;
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
   color: #384250;
 }
 .article--heading p {
-  font-size: 20px;
+  font-size: 2rem;
   color: #384250;
 }
 .article--heading > span {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #4d5761;
 }
 .article--content {
@@ -39,10 +39,10 @@ article p {
   flex-direction: column;
   align-items: stretch;
   margin: auto;
-  gap: 18px;
+  gap: 1.8rem;
 }
 .article--content > img {
-  margin: 20px 0 20px 0;
+  margin: 2rem 0;
 }
 .highlited--text {
   border-left: 2px solid #8200aa;
@@ -51,38 +51,38 @@ article p {
 .highlited--text > p {
   font-style: italic;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 32px;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  margin-bottom: 3.2rem;
 }
 .avatar--author {
   display: flex;
-  gap: 16px;
+  gap: 1.6rem;
 }
 .article--author {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
 }
 .author--role {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 .social--media {
-  margin: auto 15px auto auto;
+  margin: auto 1.5rem auto auto;
 }
 .related--articles {
   width: 80%;
   display: flex;
   flex-direction: column;
-  margin: 96px auto 96px auto;
-  gap: 96px;
+  margin: 9.6rem auto;
+  gap: 9.6rem;
 }
 .sugested--articles {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.2rem;
   justify-content: space-between;
 }
 .sugested--articles > div {

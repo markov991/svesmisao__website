@@ -1,0 +1,62 @@
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  nav > img {
+    width: 18rem;
+  }
+  #search--articles {
+    width: 50%;
+  }
+  .footer--org--description > img {
+    width: 18rem;
+  }
+  .author {
+    gap: 1.2rem;
+  }
+
+  .latest-articles {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .container {
+    gap: 5rem;
+  }
+  .latest--articles {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .container {
+    width: 95vw;
+  }
+  .hero-section > p {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .latest--articles {
+    grid-template-columns: 1fr;
+  }
+  .footer--org--description > img {
+    width: 70%;
+  }
+  .footer--org--description {
+    width: 40%;
+  }
+  .categories__footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
