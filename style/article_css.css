@@ -1,5 +1,5 @@
 article {
-  width: 120rem;
+  max-width: 120rem;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -73,7 +73,7 @@ article p {
   margin: auto 1.5rem auto auto;
 }
 .related--articles {
-  width: 80%;
+  max-width: 120rem;
   display: flex;
   flex-direction: column;
   margin: 9.6rem auto;
@@ -88,6 +88,14 @@ article p {
 .sugested--articles > div {
   width: min-content;
 }
+.sugested--articles h2 {
+  font-size: 2.4rem;
+}
+.sugested--articles div,
+.sugested--articles img {
+  width: 100%;
+}
+
 article > section:last-of-type {
   padding-bottom: 6px;
   border-bottom: 1px solid #f2f4f7;

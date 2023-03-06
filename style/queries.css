@@ -12,12 +12,18 @@
   nav > img {
     width: 18rem;
   }
+
+  .sugested--articles {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
   #search--articles {
     width: 50%;
   }
   .footer--org--description > img {
     width: 18rem;
   }
+
   .author {
     gap: 1.2rem;
   }
@@ -34,6 +40,11 @@
   .latest--articles {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+  }
+  .sugested--articles {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    justify-items: center;
   }
 }
 

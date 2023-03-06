@@ -11,6 +11,9 @@ body {
   font-family: "Inter";
   color: #384250;
 }
+p {
+  text-align: justify;
+}
 
 header {
   display: flex;
@@ -39,6 +42,8 @@ nav > a {
 }
 .header-links {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .category:hover > .subcategories {
   display: flex;
@@ -53,7 +58,7 @@ nav > a {
 }
 
 .categories__header {
-  margin-left: auto;
+  /* margin-left: auto */
   position: relative;
 }
 .subcategories {
@@ -62,7 +67,7 @@ nav > a {
   flex-direction: column;
   padding: 2rem 1rem;
   background-color: #f3f4f6;
-  width: max-content;
+  width: 100%;
   /* border: 1px solid black; */
 
   gap: 2.4rem;
@@ -154,7 +159,6 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
-  flex-wrap: wrap;
   gap: 3.2rem;
 }
 .latest--articles > div {
@@ -189,7 +193,6 @@ footer {
   background-color: #384250;
   color: #f2f4f7;
 
-  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
