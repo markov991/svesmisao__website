@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 44em) {
+  .categories__header {
+    display: none;
+  }
   .container {
     gap: 5rem;
   }
