@@ -221,8 +221,13 @@ footer {
 }
 .trade-mark-and-social-media {
   width: 80%;
-  height: 12rem;
+  padding: 2rem;
+  /* height: 12rem; */
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
+}
+
+.trade-mark-and-social-media span {
+  font-size: 1.6rem;
 }
