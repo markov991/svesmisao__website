@@ -34,8 +34,15 @@
 }
 
 @media (max-width: 44em) {
-  .categories__header {
+  header {
+    justify-content: space-between;
+  }
+  .header-links {
     display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
   }
   .container {
     gap: 5rem;
