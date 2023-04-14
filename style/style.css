@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   color: #384250;
 }
 p {
@@ -51,8 +51,10 @@ nav > a {
   width: 2rem;
   height: 2rem;
   margin-right: 2.5rem;
+  margin-top: -0.6rem;
 }
-.hamburger-menu button {
+.hamburger-menu button,
+.close-btn button {
   background-color: transparent;
   border: none;
 }
@@ -168,16 +170,19 @@ a {
   gap: 1.6rem;
   font-size: 1.4rem;
 }
-.latest--articles {
+.latest--articles,
+.categories-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   gap: 3.2rem;
 }
-.latest--articles > div {
+.latest--articles > div,
+.categories-articles > div {
   width: 100%;
 }
-.latest--articles img {
+.latest--articles img,
+.categories-articles img {
   width: 100%;
   aspect-ratio: 16/9;
 
@@ -187,13 +192,15 @@ a {
 .article-intro {
   font-size: 1.8rem;
 }
-.latest--articles .article-intro {
+.latest--articles .article-intro,
+.categories-articles .article-intro {
   height: 15rem;
   overflow: hidden;
   font-size: 1.8rem;
 }
 
-.latest--articles h2 {
+.latest--articles h2,
+.categories-articles h2 {
   height: 5.7rem;
   overflow: hidden;
 
@@ -277,7 +284,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.mrk {
+.close-btn {
   /* float: right; */
   position: absolute;
   right: 0;

@@ -1,8 +1,9 @@
-const hamMenu = document.querySelector(".hamburger-menu");
+const hamMenu = document.querySelectorAll(".toggle-menu");
 const menuModal = document.querySelector(".menu-modal");
+console.log(hamMenu);
 
-hamMenu.addEventListener("click", () => {
-  console.log("hello");
-  hamMenu.classList.add("hidden");
-  menuModal.classList.remove("hidden");
+hamMenu.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    menuModal.classList.toggle("hidden");
+  });
 });

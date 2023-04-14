@@ -1,9 +1,10 @@
-@media (max-width: 75em) {
+/*@media (max-width: 75em) {
   html {
-    /* 9px / 16px  */
-    font-size: 56.25%;
+    /* 9px / 16px  
+    font-size: 56.25%; 
   }
 }
+*/
 @media (max-width: 59em) {
   html {
     /* 8px / 16px = 0.5 = 50% */
@@ -28,8 +29,9 @@
     gap: 1.2rem;
   }
 
-  .latest-articles {
-    gap: 1rem;
+  .latest-articles,
+  .categories-articles {
+    gap: 3rem;
   }
 }
 
@@ -47,7 +49,8 @@
   .container {
     gap: 5rem;
   }
-  .latest--articles {
+  .latest--articles,
+  .categories-articles {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
   }
@@ -67,7 +70,8 @@
     text-align: justify;
   }
 
-  .latest--articles {
+  .latest--articles,
+  .categories-articles {
     grid-template-columns: 1fr;
   }
   .footer--org--description > img {
