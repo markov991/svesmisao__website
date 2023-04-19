@@ -49,6 +49,9 @@
   .container {
     gap: 5rem;
   }
+  .article--content {
+    width: 80%;
+  }
   .latest--articles,
   .categories-articles {
     grid-template-columns: repeat(2, 1fr);

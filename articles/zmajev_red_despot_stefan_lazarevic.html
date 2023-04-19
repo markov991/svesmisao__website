@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Оснивање Змајевог реда је представљало један важан догађај за
+    југоисточну Европу и Балкан, а самим тим и средњовековну Србију. Ред
+    је званично основан 12. Децембра 1408. године."
+    />
+    <link rel="icon" href="../images/favIcon.png" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <title>СВЕСМИСАО-ЗМАЈЕВ РЕД И ДЕСПОТ СТЕФАН ЛАЗАРЕВИЋ</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
@@ -37,6 +46,11 @@
               </div>
             </div>
           </nav>
+        </div>
+        <div class="hamburger-menu">
+          <button class="toggle-menu">
+            <img src="../images/hamMenu.svg" alt="Open menu button" />
+          </button>
         </div>
       </header>
     </div>
@@ -147,14 +161,7 @@
       </div>
     </article>
     <div class="related--articles">
-      <div>
-        <div>
-          <h3>Slicne objave</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <button></button>
-      </div>
-
+      <h3 class="read-also-heading">ПРОЧИТАЈТЕ ЈОШ:</h3>
       <div class="sugested--articles">
         <div>
           <img src="../images/article__1.png" alt="placeholder picture" />
@@ -241,5 +248,22 @@
         <span>Drustvene mreze</span>
       </div>
     </footer>
+    <div class="menu-modal hidden">
+      <div class="close-btn">
+        <button class="toggle-menu">
+          <img src="../images/closeIcon.svg" alt="Close menu button" />
+        </button>
+      </div>
+      <div class="center-content">
+        <div class="hamburger-menu-categories">
+          <a href="#">О нама</a>
+          <a href="../index.html">Почетна</a>
+          <a href="../categories/drustvo.html">Друштво</a>
+          <a href="../categories/kultura.html">Култура</a>
+          <a href="../categories/knjizevnost.html">Књижевност</a>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="../js/hamManuLogic.js"></script>
 </html>

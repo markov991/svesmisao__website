@@ -82,24 +82,39 @@ ol {
   max-width: 120rem;
   display: flex;
   flex-direction: column;
-  margin: 9.6rem auto;
-  gap: 9.6rem;
+  padding: 2rem;
+  margin: 6rem auto;
+  gap: 4.8rem;
 }
 .sugested--articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .sugested--articles > div {
-  width: min-content;
+  width: 100%;
+  /* width: min-content; */
 }
 .sugested--articles h2 {
-  font-size: 2.4rem;
+  height: 5.7rem;
+  overflow: hidden;
+
+  font-size: 2.2rem;
+  margin: 0.8rem 0;
 }
-.sugested--articles div,
+
 .sugested--articles img {
   width: 100%;
+  aspect-ratio: 16/9;
+
+  margin-bottom: 3.2rem;
+}
+
+.sugested--articles .article-intro {
+  height: 15rem;
+  overflow: hidden;
+  font-size: 1.8rem;
 }
 .float-left-img {
   width: min-content;
@@ -110,6 +125,9 @@ ol {
 .img-description {
   font-size: 1.4rem;
   text-align: center;
+}
+.read-also-heading {
+  font-size: 2.4rem;
 }
 
 article > section:last-of-type {
