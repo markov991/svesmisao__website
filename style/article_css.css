@@ -6,11 +6,15 @@ article {
   margin: auto;
   gap: 6.4rem;
 }
-article p {
+article p,
+li {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.8rem;
   color: #475467;
+}
+ol {
+  margin-left: 2rem;
 }
 
 .article--heading {
@@ -59,6 +63,7 @@ article p {
 .avatar--author {
   display: flex;
   gap: 1.6rem;
+  align-items: center;
 }
 .article--author {
   font-weight: 600;
@@ -95,6 +100,16 @@ article p {
 .sugested--articles div,
 .sugested--articles img {
   width: 100%;
+}
+.float-left-img {
+  width: min-content;
+  float: left;
+  margin: 1rem;
+  margin-right: 2rem;
+}
+.img-description {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 article > section:last-of-type {
