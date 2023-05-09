@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr-RS">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,17 +7,6 @@
     <link rel="icon" href="../images/favIcon.png" />
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
     <link rel="manifest" href="../manifest.webmanifest" />
-    <title>СВЕСМИСАО-КЊИЖЕВНОСТ</title>
-  </head>
-  <body></body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="/style/queries.css" />
     <title>СВЕСМИСАО-КЊИЖЕВНОСТ</title>
@@ -28,7 +17,7 @@
         <img src="../images/SS_logo.svg" alt="Organization logo" />
         <div class="header-links">
           <nav>
-            <a class="category" href="#">О нама</a>
+            <a class="category" href="../o-nama.html">О нама</a>
             <a class="category" href="../index.html">Почетна</a>
           </nav>
           <nav class="categories__header">
@@ -60,30 +49,35 @@
       <div class="categories-article"></div>
     </div>
     <footer>
-      <!-- <div class="footer--pre">
-          <div class="footer--org--description">
-            <img src="images/ss_logo_white.svg" alt="Organization logo" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-              dolorem maiores aperiam non iusto debitis. Quidem ratione quae
-              debitis, impedit est aspernatur nemo provident sunt quasi neque
-              illum incidunt commodi?
-            </p>
-          </div>
-          <div class="categories__footer">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div> -->
       <div class="trade-mark-and-social-media">
         <img src="../images/ss_logo_white.svg" alt="Organization logo" />
         <span>&copy 2022 Svesmisao. All rights reserved.</span>
-        <span>Drustvene mreze</span>
+        <span>
+          <a href="https://www.facebook.com/groups/736148828238290">
+            <img
+              class="facebook-img"
+              src="../images/facebook-icon.svg"
+              alt="facebook logo"
+            /> </a
+        ></span>
       </div>
     </footer>
+    <div class="menu-modal hidden">
+      <div class="close-btn">
+        <button class="toggle-menu">
+          <img src="../images/closeIcon.svg" alt="Close menu button" />
+        </button>
+      </div>
+      <div class="center-content">
+        <div class="hamburger-menu-categories">
+          <a href="../o-nama.html">О нама</a>
+          <a href="../index.html">Почетна</a>
+          <a href="drustvo.html">Друштво</a>
+          <a href="kultura.html">Култура</a>
+          <a href="knjizevnost.html">Књижевност</a>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="../js/hamManuLogic.js"></script>
 </html>

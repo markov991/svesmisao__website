@@ -11,7 +11,7 @@ allArticles.forEach((artticle) => {
         
           <div>
             <img
-              src="../images/${artticle.image}.jpg"
+              src="../images/${artticle.image}"
               alt="${artticle.imageDescription}"
             />
             <div class="author">

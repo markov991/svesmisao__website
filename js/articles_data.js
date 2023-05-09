@@ -31,7 +31,7 @@ const article1 = new Articles(
 у прву половину XV века.`,
   "Стефан Новаковић",
   "друштво",
-  "senke_zrnova_StefanNovakovic",
+  "senke_zrnova_StefanNovakovic.jpg",
   "Zrnov, skice Feliksa Kanica ",
   "4/14/2023",
   "senke_zrnova_StefanNovakovic"
@@ -43,7 +43,7 @@ const article2 = new Articles(
 Ћире Монока.`,
   "Александар Ђокић",
   "Култура",
-  "pocetak_filma_u_srbiji_AleksandarDjokic",
+  "pocetak_filma_u_srbiji_AleksandarDjokic.jpg",
   "Scena iz filma maratonci trce pocasan krug",
   "4/14/2023",
   "pocetak_filma_u_srbiji_AleksandarDjokic"
@@ -58,8 +58,8 @@ const article3 = new Articles(
     њену нервозу.`,
   "Јована Новаковић",
   "Култура",
-  "article__3",
-  "Nema",
+  "stenli_kjubrik_i_odnos_s_glumcima.webp",
+  "Stenli Kjubrik",
   "4/14/2023",
   "stenli_kjubrik_i_odnos_s_glumcima"
 );
@@ -72,7 +72,7 @@ const article4 = new Articles(
   емеритусу Факултета музичке уметности у Београду.`,
   "Златан Поповић Фуртунић",
   "Култура",
-  "tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast",
+  "tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast.jpg",
   "Violina i note",
   "4/14/2023",
   "tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast"
@@ -84,7 +84,7 @@ const article5 = new Articles(
   скоро непроходне српске шуме 1830-их.`,
   "Марија Краљ",
   "Друштво",
-  "deforestacija_i_ekoloski_aktivizam_u_srbiji_MarijaKralj",
+  "deforestacija_i_ekoloski_aktivizam_u_srbiji_MarijaKralj.jpg",
   "Posecena stabla opustostosenih suma",
   "4/14/2023",
   "deforestacija_i_ekoloski_aktivizam_u_srbiji_u_19_veku"
@@ -97,9 +97,9 @@ const article6 = new Articles(
   преци Црногораца у позно модерно доба сматрали националним Србима.`,
   "Срђан Калањ",
   "Друштво",
-  "article__3",
-  "nema",
-  "4/14/2023",
+  "article__3.jpg",
+  "Njegoševa kapela na Lovćenu",
+  "nacionalni_identitet_i_sveti_petar_cetinjski.webp",
   "nacionalni_identitet_i_sveti_petar_cetinjski"
 );
 
@@ -110,8 +110,8 @@ const article7 = new Articles(
 1183, Босна је његову владавину провела у миру.`,
   "Михајло Бабић",
   "Друштво",
-  "article__3",
-  "nema",
+  "ban_kulin.webp",
+  "Ban Kulin",
   "4/14/2023",
   "ban_kulin"
 );
@@ -122,8 +122,8 @@ const article8 = new Articles(
 југоисточну Европу и Балкан, а самим тим и средњовековну Србију. Ред
 је званично основан 12. Децембра 1408. године.`,
   "Илија Костадиновић",
-  "",
-  "zmajev_red_despot_stefan_lazarevic",
+  "Друштво",
+  "zmajev_red_despot_stefan_lazarevic.jpg",
   "Grb Despota Stefana Lazarevica",
   "4/14/2023",
   "zmajev_red_despot_stefan_lazarevic"
