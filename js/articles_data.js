@@ -97,9 +97,9 @@ const article6 = new Articles(
   преци Црногораца у позно модерно доба сматрали националним Србима.`,
   "Срђан Калањ",
   "Друштво",
-  "article__3.jpg",
-  "Njegoševa kapela na Lovćenu",
   "nacionalni_identitet_i_sveti_petar_cetinjski.webp",
+  "Njegoševa kapela na Lovćenu",
+  "4/14/2023",
   "nacionalni_identitet_i_sveti_petar_cetinjski"
 );
 

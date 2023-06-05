@@ -5,6 +5,12 @@
   }
 }
 */
+@media (max-width: 75em) {
+  .featured--img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 59em) {
   html {
     /* 8px / 16px = 0.5 = 50% */
@@ -49,7 +55,8 @@
   .container {
     gap: 5rem;
   }
-  .article--content {
+  .article--content,
+  .related--articles {
     width: 80%;
   }
   .latest--articles,
@@ -73,6 +80,9 @@
   .hero-section > p {
     width: 90%;
     text-align: justify;
+  }
+  .search-input {
+    width: 30rem;
   }
 
   .latest--articles,
