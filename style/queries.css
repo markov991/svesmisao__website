@@ -53,10 +53,12 @@
     width: 80%;
   }
   .latest--articles,
-  .categories-articles {
+  .categories-articles,
+  .search-result {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
   }
+
   .sugested--articles {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -74,7 +76,8 @@
   }
 
   .latest--articles,
-  .categories-articles {
+  .categories-articles,
+  .search-result {
     grid-template-columns: 1fr;
   }
   .footer--org--description > img {
