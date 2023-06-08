@@ -45,8 +45,8 @@
             <div class="category">
               <a href="../categories/knjizevnost.html">Књижевност</a>
               <div class="subcategories">
-                <a href="">Поезија</a>
-                <a href="">Проза</a>
+                <a href="../categories/knjizevnost.html">Поезија</a>
+                <a href="../categories/knjizevnost.html">Проза</a>
               </div>
             </div>
           </nav>
@@ -75,7 +75,7 @@
           <span><a href="../categories/kultura.html">Култура</a></span>
         </div>
       </section>
-      <!-- <img src="../images/article_sample_img.png" alt="" /> -->
+
       <section class="article--content">
         <h2>Дари у част</h2>
         <p>
@@ -136,7 +136,7 @@
           Оно што овај хор одликује јесте синхроност, интонативна чистота,
           прецизна дикција и висока кондициона спремност.
         </p>
-        <!-- <img src="../images/article_sample_img__3.png" alt="" /> -->
+
         <p>
           Иако је добар део каријере обухватао време социјалистичког режима које
           није толерисало изјашњавање по националној припадности, национална
@@ -234,6 +234,7 @@
           мора.
         </p>
         <img
+          class="featured--img"
           src="../images/article-img/tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast/kisa_pada-trava_raste.webp"
           alt="Транскрипција Мидорага Васиљевића из Југословенског музичког фолклора"
         />
@@ -310,6 +311,7 @@
           25.
         </p>
         <img
+          class="featured--img"
           src="../images/article-img/tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast/bela_vila.webp"
           alt="Транскрипција Владе Милошевића из Босанских народних пјесама"
         />
@@ -368,73 +370,14 @@
           </div>
           <div>
             <div class="article--author">Златан Поповић Фуртунић</div>
-            <div class="author--role">Glavni urednik</div>
           </div>
-          <div class="social--media">FB</div>
+          <!-- <div class="social--media">FB</div> -->
         </div>
       </div>
     </article>
     <div class="related--articles">
       <h3 class="read-also-heading">ПРОЧИТАЈТЕ ЈОШ:</h3>
-      <div class="sugested--articles">
-        <div>
-          <img src="../images/article__1.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-        <div>
-          <img src="../images/article__2.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-        <div>
-          <img src="../images/article__3.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-      </div>
+      <div class="sugested--articles"></div>
     </div>
     <footer>
       <div class="trade-mark-and-social-media">
@@ -467,5 +410,6 @@
       </div>
     </div>
   </body>
+  <script type="module" src="../js/suggestedArticles.js"></script>
   <script src="../js/hamManuLogic.js"></script>
 </html>

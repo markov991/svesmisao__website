@@ -7,9 +7,7 @@
     <meta
       name="description"
       content="Sve(s)misao je elektronski časopis posvećen kulturi, društvu i umetnosti. Od sličnih internet
-    portala izdvaja ga vanvremenska sadržina koja ne prestaje da budi interesovanje. U časopisu se mogu
-    pronaći članci posvećeni nauci, tradiciji, kulturi, duhvonosti, religiji, mitologiji, muzici, filmu, književnosti,
-    slikarstvu, čak i sportu."
+    portala izdvaja ga vanvremenska sadržina koja ne prestaje da budi interesovanje."
     />
 
     <title>СВЕСМИСАО-часопис о друштвеним питањима, култури и уметности</title>
@@ -42,8 +40,8 @@
             <div class="category">
               <a href="./categories/knjizevnost.html">Књижевност</a>
               <div class="subcategories">
-                <a href="">Поезија</a>
-                <a href="">Проза</a>
+                <a href="./categories/knjizevnost.html">Поезија</a>
+                <a href="./categories/knjizevnost.html">Проза</a>
               </div>
             </div>
           </nav>
@@ -58,14 +56,16 @@
     <div class="container">
       <section>
         <div class="hero-section">
-          <h1>СВЕСМИСАО</h1>
+          <h1>
+            СВЕСМИСАО - часопис о друштвеним питањима, култури и уметности
+          </h1>
           <p>
-            Sve(s)misao je elektronski časopis posvećen kulturi, društvu i
-            umetnosti. Od sličnih internet portala izdvaja ga vanvremenska
-            sadržina koja ne prestaje da budi interesovanje. U časopisu se mogu
-            pronaći članci posvećeni nauci, tradiciji, kulturi, duhvonosti,
-            religiji, mitologiji, muzici, filmu, književnosti, slikarstvu, čak i
-            sportu.
+            Све(с)мисао је електронски часопис посвећен култури, друштву и
+            уметности. Од сличних интернет портала издваја га ванвременска
+            садржина која не престаје да буди интересовање. У часопису се могу
+            пронаћи чланци посвећени науци, традицији, култури, духвоности,
+            религији, митологији, музици, филму, књижевности, сликарству, чак и
+            спорту.
           </p>
           <input id="search--articles" type="text" placeholder="Претрага..." />
         </div>
@@ -312,6 +312,11 @@
     </div>
     <div class="search-modal hidden">
       <div>
+        <div class="close-btn">
+          <button class="close-search-modal-btn">
+            <img src="./images/closeIcon.svg" alt="Close menu button" />
+          </button>
+        </div>
         <input class="search-input" type="text" placeholder="Претрага..." />
       </div>
       <div class="search-result"></div>

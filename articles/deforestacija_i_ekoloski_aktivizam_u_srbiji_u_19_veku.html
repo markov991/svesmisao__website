@@ -43,8 +43,8 @@
             <div class="category">
               <a href="../categories/knjizevnost.html">Књижевност</a>
               <div class="subcategories">
-                <a href="">Поезија</a>
-                <a href="">Проза</a>
+                <a href="../categories/knjizevnost.html">Поезија</a>
+                <a href="../categories/knjizevnost.html">Проза</a>
               </div>
             </div>
           </nav>
@@ -69,8 +69,9 @@
         </div>
       </section>
       <img
+        class="featured--img"
         src="../images/deforestacija_i_ekoloski_aktivizam_u_srbiji_MarijaKralj.jpg"
-        alt=""
+        alt="Посечена шума"
       />
       <section class="article--content">
         <p>
@@ -276,104 +277,27 @@
             <img src="../images/avatar.png" alt="" />
           </div>
           <div>
-            <div class="article--author">Mihajlo Babić</div>
-            <div class="author--role">Glavni urednik</div>
+            <div class="article--author">Марија Краљ</div>
           </div>
-          <div class="social--media">FB</div>
         </div>
       </div>
     </article>
     <div class="related--articles">
       <h3 class="read-also-heading">ПРОЧИТАЈТЕ ЈОШ:</h3>
-      <div class="sugested--articles">
-        <div>
-          <img src="../images/article__1.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-        <div>
-          <img src="../images/article__2.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-        <div>
-          <img src="../images/article__3.png" alt="placeholder picture" />
-          <div class="author">
-            <span>Mihajlo Babic</span>
-
-            <span class="dot"> </span>
-            <span>1/6/2023</span>
-          </div>
-          <h2>Naslov članka</h2>
-          <p class="article-intro">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatem, quo eligendi. Suscipit eum dolores earum magni quisquam
-            doloremque.
-          </p>
-          <div class="category--marker">
-            <span><a href="#">Kategorija</a></span>
-            <span><a href="#">Kategorija</a></span>
-          </div>
-        </div>
-      </div>
+      <div class="sugested--articles"></div>
     </div>
     <footer>
-      <!-- <div class="footer--pre">
-        <div class="footer--org--description">
-          <img src="../images/ss_logo_white.svg" alt="Organization logo" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            dolorem maiores aperiam non iusto debitis. Quidem ratione quae
-            debitis, impedit est aspernatur nemo provident sunt quasi neque
-            illum incidunt commodi?
-          </p>
-        </div>
-        <div class="categories__footer">
-          <span><a href="#">Kategorija</a></span>
-          <span><a href="#">Kategorija</a></span>
-          <span><a href="#">Kategorija</a></span>
-          <span><a href="#">Kategorija</a></span>
-          <span><a href="#">Kategorija</a></span>
-          <span><a href="#">Kategorija</a></span>
-        </div>
-      </div> -->
       <div class="trade-mark-and-social-media">
         <img src="../images/ss_logo_white.svg" alt="Organization logo" />
         <span>&copy 2023 Svesmisao. All rights reserved.</span>
-        <span> <a href="https://www.facebook.com/groups/736148828238290">
-          <img
-            class="facebook-img"
-            src="../images/facebook-icon.svg"
-            alt="facebook logo"
-          /> </a></span>
+        <span>
+          <a href="https://www.facebook.com/groups/736148828238290">
+            <img
+              class="facebook-img"
+              src="../images/facebook-icon.svg"
+              alt="facebook logo"
+            /> </a
+        ></span>
       </div>
     </footer>
     <div class="menu-modal hidden">
@@ -393,5 +317,6 @@
       </div>
     </div>
   </body>
+  <script type="module" src="../js/suggestedArticles.js"></script>
   <script src="../js/hamManuLogic.js"></script>
 </html>

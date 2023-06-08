@@ -4,15 +4,15 @@ const searchInput = document.getElementById("search--articles");
 const searchModal = document.querySelector(".search-modal");
 const searchPar = document.querySelector(".search-input");
 const searchResultContainer = document.querySelector(".search-result");
+const closeSearchMenu = document.querySelector(".close-search-modal-btn");
 
 searchInput.addEventListener("click", () => {
   searchModal.classList.remove("hidden");
+
   searchResultContainer.innerHTML = "";
   document.addEventListener("keyup", (e) => {
     const articlesSearchResult = [];
     allArticles.forEach((article) => {
-     
-
       if (
         article.title.toLowerCase().includes(searchPar.value.toLowerCase()) &&
         searchPar.value.length > 1 &&
@@ -25,6 +25,12 @@ searchInput.addEventListener("click", () => {
       }
     });
   });
+});
+
+closeSearchMenu.addEventListener("click", () => {
+  searchResultContainer.innerHTML = "";
+  searchPar.value = "";
+  searchModal.classList.add("hidden");
 });
 
 document.addEventListener("keydown", (e) => {
@@ -62,14 +68,10 @@ const renderingSearchResult = function (result) {
                 ${artticle.articleDescription}
               </p>
               <div class="category--marker">
-                <span><a href="drustvo.html">${artticle.category}</a></span>
+                
               </div>
             </div>
           `
     );
   });
 };
-
-// console.log(!searchModal.classList.contains("hidden"));
-
-// console.log(searchInput);
