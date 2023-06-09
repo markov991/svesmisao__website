@@ -85,6 +85,10 @@
     width: 30rem;
   }
 
+  .article--heading h1 {
+    font-size: 3.8rem;
+  }
+
   .latest--articles,
   .categories-articles,
   .search-result {
