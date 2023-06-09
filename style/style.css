@@ -17,6 +17,29 @@ body {
 p {
   text-align: justify;
 }
+a {
+  text-decoration: none;
+  color: #384250;
+}
+a:hover {
+  cursor: pointer;
+}
+
+.center-content {
+  display: flex;
+
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us {
+  font-size: 1.8rem;
+}
+
+/* ***************************** */
+/********** Header style ********/
+/* *************************** */
 
 header {
   display: flex;
@@ -36,8 +59,12 @@ nav > img {
   width: 22rem;
   margin-right: 2rem;
 }
-.category > a,
-nav > a {
+
+.nav--container {
+  border-bottom: 1px solid #f2f4f7;
+}
+
+nav a {
   font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
@@ -48,36 +75,16 @@ nav > a {
   width: 100%;
   justify-content: space-between;
 }
-
-.hamburger-menu {
-  display: none;
-  width: 2rem;
-  height: 2rem;
-  margin-right: 2.5rem;
-  margin-top: -0.6rem;
-}
-.hamburger-menu button,
-.close-btn button {
-  background-color: transparent;
-  border: none;
-}
-
-.category:hover > .subcategories {
-  display: flex;
-}
 .category {
   position: relative;
   padding: 1rem;
-}
-.category:hover,
-.category:active {
-  background-color: #f3f4f6;
 }
 
 .categories__header {
   /* margin-left: auto */
   position: relative;
 }
+
 .subcategories {
   position: absolute;
   display: none;
@@ -94,13 +101,35 @@ nav > a {
   z-index: 100;
 }
 
+.category:hover > .subcategories {
+  display: flex;
+}
+.category:hover,
+.category:active {
+  background-color: #f3f4f6;
+}
+
+.hamburger-menu {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2.5rem;
+  margin-top: -0.6rem;
+}
+.hamburger-menu button,
+.close-btn button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+/* ***************************************************** */
+/*************** Main container style *******************/
+/* *************************************************** */
+
 h1 {
   width: 70%;
   font-size: 4.8rem;
-}
-a {
-  text-decoration: none;
-  color: #384250;
 }
 
 .container {
@@ -114,9 +143,17 @@ a {
   padding-bottom: 3.6rem;
   border-bottom: 1px solid #f2f4f7;
 }
-.nav--container {
-  border-bottom: 1px solid #f2f4f7;
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 1000px;
+  margin: auto 0;
+  background-color: black;
 }
+
+/* HERO SECTION */
+
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -129,26 +166,29 @@ a {
   font-size: 2rem;
   align-content: center;
 }
+
+#search--articles {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  padding: 3px;
+  width: 49rem;
+  height: 4.8rem;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+/* FEATURED ARTICLE */
+
 .featured--article h2 {
   font-size: 3rem;
   margin: 0.8rem 0;
 }
-/* .featured--article a {
-  text-decoration: none;
-  color: #384250;
-} */
+
 .featured--article img {
   width: 100%;
   aspect-ratio: 3/1;
   margin-bottom: 3.2rem;
 }
-.dot {
-  width: 4px;
-  height: 4px;
-  border-radius: 1000px;
-  margin: auto 0;
-  background-color: black;
-}
+
 .category--marker {
   margin-top: 2.4rem;
   display: flex;
@@ -223,17 +263,10 @@ a {
   white-space: wrap;
 }
 
-a:hover {
-  cursor: pointer;
-}
-#search--articles {
-  border: 1px solid #d0d5dd;
-  border-radius: 8px;
-  padding: 3px;
-  width: 49rem;
-  height: 4.8rem;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-}
+/* ******************************************* */
+/* ************** FOOTER STYLE ************** */
+/* ***************************************** */
+
 footer {
   background-color: #384250;
   color: #f2f4f7;
@@ -259,9 +292,10 @@ footer {
 
   filter: invert(100%);
 }
-.about-us {
-  font-size: 1.8rem;
-}
+
+/* ************************************** */
+/* ********** MODALS STYLE ************* */
+/* ************************************ */
 
 .menu-modal,
 .search-modal {
@@ -286,13 +320,7 @@ footer {
   /* margin-top: 25vh; */
   gap: 1rem;
 }
-.center-content {
-  display: flex;
 
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
 .close-btn {
   /* float: right; */
   position: absolute;
@@ -322,10 +350,6 @@ footer {
   padding: 0 2rem;
   gap: 3rem;
   /* transform: scale(0.8); */
-}
-.search-result > div {
-  /* width: 80%; */
-  /* padding: 1.2rem; */
 }
 
 .hidden {

@@ -30,6 +30,7 @@ ol {
   color: #384250;
   text-align: center;
 }
+
 .article--heading p {
   font-size: 2rem;
   color: #384250;
@@ -45,6 +46,9 @@ ol {
   align-items: stretch;
   margin: auto;
   gap: 1.8rem;
+}
+.article--content h2 {
+  font-size: 2.8rem;
 }
 .article--content > img {
   margin: 2rem 0;
@@ -96,7 +100,7 @@ ol {
   width: 100%;
   /* width: min-content; */
 }
-.sugested--articles h2 {
+.sugested--articles h3 {
   height: 5.7rem;
   overflow: hidden;
 

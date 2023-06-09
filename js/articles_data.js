@@ -33,7 +33,7 @@ const article1 = new Articles(
   "друштво",
   "senke_zrnova_StefanNovakovic.jpg",
   "Zrnov, skice Feliksa Kanica ",
-  "4/14/2023",
+  "09/06/2023",
   "senke_zrnova_StefanNovakovic"
 );
 
@@ -45,7 +45,7 @@ const article2 = new Articles(
   "Култура",
   "pocetak_filma_u_srbiji_AleksandarDjokic.jpg",
   "Scena iz filma maratonci trce pocasan krug",
-  "4/14/2023",
+  "09/06/2023",
   "pocetak_filma_u_srbiji_AleksandarDjokic"
 );
 
@@ -60,7 +60,7 @@ const article3 = new Articles(
   "Култура",
   "stenli_kjubrik_i_odnos_s_glumcima.webp",
   "Stenli Kjubrik",
-  "4/14/2023",
+  "09/06/2023",
   "stenli_kjubrik_i_odnos_s_glumcima"
 );
 const article4 = new Articles(
@@ -74,7 +74,7 @@ const article4 = new Articles(
   "Култура",
   "tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast.jpg",
   "Violina i note",
-  "4/14/2023",
+  "09/06/2023",
   "tradicija_kao_vrhunska_umetnost_koncert_tragovi_iz_sazvezdja_regula_dari_u_cast"
 );
 
@@ -86,7 +86,7 @@ const article5 = new Articles(
   "Друштво",
   "deforestacija_i_ekoloski_aktivizam_u_srbiji_MarijaKralj.jpg",
   "Posecena stabla opustostosenih suma",
-  "4/14/2023",
+  "09/06/2023",
   "deforestacija_i_ekoloski_aktivizam_u_srbiji_u_19_veku"
 );
 
@@ -99,7 +99,7 @@ const article6 = new Articles(
   "Друштво",
   "nacionalni_identitet_i_sveti_petar_cetinjski.webp",
   "Njegoševa kapela na Lovćenu",
-  "4/14/2023",
+  "09/06/2023",
   "nacionalni_identitet_i_sveti_petar_cetinjski"
 );
 
@@ -112,7 +112,7 @@ const article7 = new Articles(
   "Друштво",
   "ban_kulin.webp",
   "Ban Kulin",
-  "4/14/2023",
+  "09/06/2023",
   "ban_kulin"
 );
 
@@ -125,7 +125,7 @@ const article8 = new Articles(
   "Друштво",
   "zmajev_red_despot_stefan_lazarevic.jpg",
   "Grb Despota Stefana Lazarevica",
-  "4/14/2023",
+  "09/06/2023",
   "zmajev_red_despot_stefan_lazarevic"
 );
 

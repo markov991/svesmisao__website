@@ -77,9 +77,9 @@
   .container {
     width: 95vw;
   }
-  .hero-section > p {
+  .hero-section > p,
+  .hero-section > h1 {
     width: 90%;
-    text-align: justify;
   }
   .search-input {
     width: 30rem;

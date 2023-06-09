@@ -29,11 +29,11 @@ randomArticles.forEach((article) => {
             <span class="dot"> </span>
             <span>${allArticles[article].dateOfPublish}</span>
         </div>
-        <h2>
+        <h3>
             <a href="./${allArticles[article].articleLocation}.html">
             ${allArticles[article].title}
             </a>
-        </h2>
+        </h3>
         <p class="article-intro">${allArticles[article].articleDescription}</p>
         
     </div>
