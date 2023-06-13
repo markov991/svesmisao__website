@@ -102,14 +102,13 @@
   .categories-articles {
     grid-template-columns: 1fr;
   }
-  .footer--org--description > img {
-    width: 70%;
+  .trade-mark-and-social-media {
+    padding: 0 1rem;
   }
-  .footer--org--description {
-    width: 40%;
+  .trade-mark-and-social-media > img {
+    height: 1.4rem;
   }
-  .categories__footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .trade-mark-and-social-media > span {
+    font-size: 1.2rem;
   }
 }
