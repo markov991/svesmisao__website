@@ -23,6 +23,22 @@
   </head>
   <body>
     <div class="nav--container">
+      <div class="menu-modal hidden">
+        <div class="close-btn">
+          <button class="toggle-menu">
+            <img src="./images/closeIcon.svg" alt="Close menu button" />
+          </button>
+        </div>
+        <div class="center-content">
+          <div class="hamburger-menu-categories">
+            <a href="./o-nama.html">О нама</a>
+            <a href="index.html">Почетна</a>
+            <a href="./categories/drustvo.html">Друштво</a>
+            <a href="./categories/kultura.html">Култура</a>
+            <a href="./categories/knjizevnost.html">Књижевност</a>
+          </div>
+        </div>
+      </div>
       <header>
         <img src="images/SS_logo.svg" alt="Organization logo" />
         <div class="header-links">
@@ -67,7 +83,18 @@
             религији, митологији, музици, филму, књижевности, сликарству, чак и
             спорту.
           </p>
-          <input id="search--articles" type="text" placeholder="Претрага..." />
+          <div class="search-section">
+            <div class="center-container">
+              <div class="search-box">
+                <input
+                  id="search--articles"
+                  type="text"
+                  placeholder="Претрага..."
+                />
+                <div class="ser-res-box"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="featured--article">
@@ -80,7 +107,7 @@
             <span>Стефан Новаковић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a href="/articles/senke_zrnova_StefanNovakovic.html"
@@ -108,7 +135,7 @@
             <span>Александар Ђокић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a href="articles/pocetak_filma_u_srbiji_AleksandarDjokic.html">
@@ -134,7 +161,7 @@
             <span>Јована Новаковић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a href="./articles/stenli_kjubrik_i_odnos_s_glumcima.html">
@@ -161,7 +188,7 @@
             <span>Златан Поповић Фуртунић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a
@@ -190,7 +217,7 @@
             <span>Марија Краљ</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a
@@ -216,7 +243,7 @@
             <span>Срђан Калањ</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a
@@ -240,7 +267,7 @@
             <span>Михајло Бабић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2><a href="./articles/ban_kulin.html"> БАН КУЛИН </a></h2>
           <p class="article-intro">
@@ -261,7 +288,7 @@
             <span>Илија Костадиновић</span>
 
             <span class="dot"> </span>
-            <span>1/6/2023</span>
+            <span>09/06/2023</span>
           </div>
           <h2>
             <a href="./articles/zmajev_red_despot_stefan_lazarevic.html">
@@ -294,23 +321,10 @@
         </span>
       </div>
     </footer>
-    <div class="menu-modal hidden">
-      <div class="close-btn">
-        <button class="toggle-menu">
-          <img src="./images/closeIcon.svg" alt="Close menu button" />
-        </button>
-      </div>
-      <div class="center-content">
-        <div class="hamburger-menu-categories">
-          <a href="./o-nama.html">О нама</a>
-          <a href="index.html">Почетна</a>
-          <a href="./categories/drustvo.html">Друштво</a>
-          <a href="./categories/kultura.html">Култура</a>
-          <a href="./categories/knjizevnost.html">Књижевност</a>
-        </div>
-      </div>
-    </div>
-    <div class="search-modal hidden">
+
+    <!-- PART OF AN OLD VERSION -->
+
+    <!-- <div class="search-modal hidden">
       <div>
         <div class="close-btn">
           <button class="close-search-modal-btn">
@@ -320,7 +334,7 @@
         <input class="search-input" type="text" placeholder="Претрага..." />
       </div>
       <div class="search-result"></div>
-    </div>
+    </div> -->
   </body>
   <script src="./js/hamManuLogic.js"></script>
   <script type="module" src="./js/searchArticles.js"></script>
